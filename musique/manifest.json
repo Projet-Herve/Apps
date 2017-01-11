@@ -1,0 +1,20 @@
+{
+    "author": "Jules Michael <julesmichaelmail@gmail.com>",
+    "description": "Ecoutez votre musique quand vous le voulez.",
+    "displayName": "Musique",
+    "name": "musique",
+    "templates": [
+        "index.html"
+    ],
+    "urls": {
+        "api": [
+            "/list/musique",
+            "/get/musique/<file>"
+        ],
+        "menu": {
+            "Musique": "/musique"
+        }
+    },
+    "version": "0.1",
+    "widgets": [".vosmusiques /widgets/vosmusiques"]
+}
